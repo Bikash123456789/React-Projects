@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #CFFAFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#root{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 3rem 2rem 4rem 2rem;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    gap:2rem;
+    box-shadow: 2px 2px 10px 2px rgba(128, 128, 128, 0.493);
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    width:100%
+}
+
+.question-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 10px 2px rgba(128, 128, 128, 0.493);
+    padding: 1.9rem;
+    font-family: 'Courier New', Courier, monospace;
+    width:90%;
+    
+}
+
+span{
+    line-height: 2rem;
+    margin-top: 10px;
+}
+
+.icon{
+    font-size: 1.9rem;
+    cursor: pointer;
+}
